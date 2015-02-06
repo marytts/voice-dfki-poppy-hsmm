@@ -2,13 +2,3 @@ apply plugin: 'de.dfki.mary.voicebuilding'
 
 group 'de.dfki.mary'
 version '5.1.2'
-
-voice {
-    name 'dfki-poppy-hsmm'
-    language 'en'
-    region 'GB'
-    gender 'female'
-    type 'hsmm'
-    description 'A female British English hidden semi-Markov model voice'
-    samplingRate 16000
-}
