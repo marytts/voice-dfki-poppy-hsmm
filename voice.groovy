@@ -1,7 +1,9 @@
 voice {
     name = 'dfki-poppy-hsmm'
-    language = 'en'
-    region = 'GB'
+    locale {
+        language = 'en'
+        country = 'GB'
+    }
     gender = 'female'
     type = 'hsmm'
     description = 'A female British English hidden semi-Markov model voice'
